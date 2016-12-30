@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="14.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1BDEA3EC-47B4-4046-9293-EE9BF1F46D70}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Steepvalley.Windows.Forms</RootNamespace>
+    <AssemblyName>Steepvalley.Windows.Forms</AssemblyName>
+    <MyType>Windows</MyType>
+    <SignAssembly>true</SignAssembly>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <OptionStrict>On</OptionStrict>
+    <AssemblyOriginatorKeyFile>..\xpcommon.snk</AssemblyOriginatorKeyFile>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Steepvalley.Windows.Forms.XPCommonControls.xml</DocumentationFile>
+    <NoWarn>42353,42354,42355</NoWarn>
+    <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Steepvalley.Windows.Forms.XPCommonControls.xml</DocumentationFile>
+    <NoWarn>42353,42354,42355</NoWarn>
+    <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="Steepvalley.Windows.Forms.Common" />
+    <Import Include="Steepvalley.Windows.Forms.Common.Graphics" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.ComponentModel" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Drawing.Design" />
+    <Import Include="System.Drawing.Drawing2D" />
+    <Import Include="System.Drawing.Imaging" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Containers\XPGradientPanel.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Designers\XPCaptionPaneDesigner.vb" />
+    <Compile Include="Designers\XPLineDesigner.vb" />
+    <Compile Include="Designers\XPOutlookPaneDesigner.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="XPBox.Designer.vb">
+      <DependentUpon>XPBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="XPBox.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="XPCaption.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="XPCaptionPane.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="XPDivider.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="XPLabel.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="XPLine.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="XPLinkedLabelIcon.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="XPOutlookPane.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="XPRoundedRect.Designer.vb">
+      <DependentUpon>XPRoundedRect.vb</DependentUpon>
+    </Compile>
+    <Compile Include="XPRoundedRect.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="XPWatermark.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XPCaption.resx">
+      <DependentUpon>XPCaption.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XPCaptionPane.resx">
+      <DependentUpon>XPCaptionPane.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XPLabel.resx">
+      <DependentUpon>XPLabel.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XPLine.resx">
+      <DependentUpon>XPLine.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XPLinkedLabelIcon.resx">
+      <DependentUpon>XPLinkedLabelIcon.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XPOutlookPane.resx">
+      <DependentUpon>XPOutlookPane.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XPRoundedRect.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>XPRoundedRect.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XPWatermark.resx">
+      <DependentUpon>XPWatermark.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\xpcommon.snk">
+      <Link>xpcommon.snk</Link>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Steepvalley.Windows.Forms.Common\Steepvalley.Windows.Forms.Common.vbproj">
+      <Project>{2A29FB9C-C595-4C5B-A9F9-0B62DC9137D7}</Project>
+      <Name>Steepvalley.Windows.Forms.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{94E38DFF-614B-4CBD-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

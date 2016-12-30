@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="14.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{28BABA12-ED10-463D-B865-A8CE59011F93}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Steepvalley.Windows.Forms.ThemedControls</RootNamespace>
+    <AssemblyName>Steepvalley.Windows.Forms.ThemedControls</AssemblyName>
+    <MyType>Windows</MyType>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <OptionStrict>On</OptionStrict>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>..\xpcommon.snk</AssemblyOriginatorKeyFile>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Steepvalley.Windows.Forms.ThemedControls.xml</DocumentationFile>
+    <NoWarn>42353,42354,42355</NoWarn>
+    <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Steepvalley.Windows.Forms.ThemedControls.xml</DocumentationFile>
+    <NoWarn>42353,42354,42355</NoWarn>
+    <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Design, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="Steepvalley.Windows.Forms.Common.Graphics" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.ComponentModel" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Drawing.Drawing2D" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Design\XPLetterBoxDesigner.vb" />
+    <Compile Include="Design\XPSoftBarrierDesigner.vb" />
+    <Compile Include="Design\XPTaskBoxDesigner.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Theming\FormatClasses.vb" />
+    <Compile Include="Theming\IThemed.vb" />
+    <Compile Include="Theming\ThemeListener.vb" />
+    <Compile Include="Theming\Theming.vb" />
+    <Compile Include="XPLetterbox.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="XPSoftBarrier.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="XPTaskBox.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="XPTaskBoxSpecial.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="XPTaskPanel.vb">
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XPLetterbox.resx">
+      <DependentUpon>XPLetterbox.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XPSoftBarrier.resx">
+      <DependentUpon>XPSoftBarrier.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XPTaskBox.resx">
+      <DependentUpon>XPTaskBox.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XPTaskBoxSpecial.resx">
+      <DependentUpon>XPTaskBoxSpecial.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XPTaskPanel.resx">
+      <DependentUpon>XPTaskPanel.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\themedcontrols.homestead_generic_down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\themedcontrols.homestead_generic_down_over.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\themedcontrols.homestead_generic_up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\themedcontrols.homestead_generic_up_over.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\themedcontrols.homestead_special_down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\themedcontrols.homestead_special_down_over.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\themedcontrols.homestead_special_up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\themedcontrols.homestead_special_up_over.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\themedcontrols.metallic_generic_down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\themedcontrols.metallic_generic_down_over.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\themedcontrols.metallic_generic_up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\themedcontrols.metallic_generic_up_over.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\themedcontrols.metallic_special_down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\themedcontrols.metallic_special_down_over.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\themedcontrols.metallic_special_up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\themedcontrols.metallic_special_up_over.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\themedcontrols.normalcolor_generic_down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\themedcontrols.normalcolor_generic_down_over.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\themedcontrols.normalcolor_generic_up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\themedcontrols.normalcolor_generic_up_over.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\themedcontrols.normalcolor_special_down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\themedcontrols.normalcolor_special_down_over.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\themedcontrols.normalcolor_special_up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\themedcontrols.normalcolor_special_up_over.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\themedcontrols.unthemed_generic_down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\themedcontrols.unthemed_generic_down_over.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\themedcontrols.unthemed_generic_up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\themedcontrols.unthemed_generic_up_over.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\themedcontrols.unthemed_special_down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\themedcontrols.unthemed_special_down_over.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\themedcontrols.unthemed_special_up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\xpcommon.snk">
+      <Link>xpcommon.snk</Link>
+    </None>
+    <None Include="Resources\themedcontrols.unthemed_special_up_over.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Steepvalley.Windows.Forms.Common\Steepvalley.Windows.Forms.Common.vbproj">
+      <Project>{2A29FB9C-C595-4C5B-A9F9-0B62DC9137D7}</Project>
+      <Name>Steepvalley.Windows.Forms.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

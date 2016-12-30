@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="14.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8CB58F6A-5D74-4F20-9034-3C82ED2E3005}</ProjectGuid>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>Steepvalley.Windows.Forms.Styles</AssemblyName>
+    <AssemblyOriginatorKeyFile>..\xpcommon.snk</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyMode>None</AssemblyOriginatorKeyMode>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>On</OptionStrict>
+    <RootNamespace>Steepvalley.Windows.Forms.Styles</RootNamespace>
+    <StartupObject>Steepvalley.Windows.Forms.Styles.%28Keine%29</StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <MyType>Windows</MyType>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <SignAssembly>true</SignAssembly>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Steepvalley.Windows.Forms.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Steepvalley.Windows.Forms.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42353,42354,42355</NoWarn>
+    <DebugType>none</DebugType>
+    <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Design">
+      <Name>System.Design</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Diagnostics" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.Designer.vb">
+      <DependentUpon>About.vb</DependentUpon>
+    </Compile>
+    <Compile Include="About.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Definitions\ItemProperty.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Definitions\ItemPropertyCollection.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Definitions\Reference.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Definitions\ReferenceCollection.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Definitions\Style.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Definitions\StyleCollection.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Definitions\StyleSheet.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Editor\Commands\Command.vb" />
+    <Compile Include="Editor\Commands\CommandCollection.vb" />
+    <Compile Include="Editor\Dialogs\AddTypesDialog.Designer.vb">
+      <DependentUpon>AddTypesDialog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Editor\Dialogs\AddTypesDialog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor\Dialogs\AddNewPropertiesDialog.Designer.vb">
+      <DependentUpon>AddNewPropertiesDialog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Editor\Dialogs\AddNewPropertiesDialog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor\Dialogs\EditorDialog.Designer.vb">
+      <DependentUpon>EditorDialog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Editor\Dialogs\EditorDialog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor\EventArgs\StyleSelectedEventArgs.vb" />
+    <Compile Include="Editor\Views\EditorView.Designer.vb">
+      <DependentUpon>EditorView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Editor\Views\EditorView.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Editor\Views\StyleSheetListView.Designer.vb">
+      <DependentUpon>StyleSheetListView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Editor\Views\StyleSheetListView.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Editor\Dialogs\AddPropertiesDialog.Designer.vb">
+      <DependentUpon>AddPropertiesDialog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Editor\Dialogs\AddPropertiesDialog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor\Editor.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Editor\Interfaces\IPropertiesView.vb" />
+    <Compile Include="Editor\Interfaces\IStyleSheetView.vb" />
+    <Compile Include="Editor\Interfaces\IXMLView.vb" />
+    <Compile Include="Editor\Presenters\PropertiesPresenter.vb" />
+    <Compile Include="Editor\Presenters\StyleSheetPresenter.vb" />
+    <Compile Include="Editor\Presenters\XMLViewPresenter.vb" />
+    <Compile Include="Editor\Views\PropertiesView.Designer.vb">
+      <DependentUpon>PropertiesView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Editor\Views\PropertiesView.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Editor\Views\StyleSheetView.Designer.vb">
+      <DependentUpon>StyleSheetView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Editor\Views\StyleSheetView.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Editor\Views\XMLView.Designer.vb">
+      <DependentUpon>XMLView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Editor\Views\XMLView.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Extender\Designers\StyleSheetExtenderDesigner.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Extender\StyleSheetExtender.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="HelperClasses\AssemblyLoader.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="HelperClasses\ConverterHelper.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Proxies\ItemPropertyDescriptor.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Proxies\StyleProxy.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Proxies\StyleTypeDescriptor.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <EmbeddedResource Include="About.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>About.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\Dialogs\AddTypesDialog.resx">
+      <DependentUpon>AddTypesDialog.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\Dialogs\AddNewPropertiesDialog.resx">
+      <DependentUpon>AddNewPropertiesDialog.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\Dialogs\EditorDialog.resx">
+      <DependentUpon>EditorDialog.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\Views\EditorView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>EditorView.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\Views\StyleSheetListView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>StyleSheetListView.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\Dialogs\AddPropertiesDialog.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AddPropertiesDialog.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\Views\PropertiesView.resx">
+      <DependentUpon>PropertiesView.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\Views\XMLView.resx">
+      <DependentUpon>XMLView.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Extender\StyleSheetExtender.resx">
+      <DependentUpon>StyleSheetExtender.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <SubType>Designer</SubType>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{94E38DFF-614B-4CBD-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\xpcommon.snk">
+      <Link>xpcommon.snk</Link>
+    </None>
+    <None Include="app.config" />
+    <None Include="My Project\DataSources\ItemPropertyCollection.datasource" />
+    <None Include="My Project\DataSources\Style.datasource" />
+    <None Include="My Project\Settings.settings">
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Steepvalley.Serialization\Steepvalley.Serialization.vbproj">
+      <Project>{1DECD0A0-4B04-4E64-AB10-4673E152DDD1}</Project>
+      <Name>Steepvalley.Serialization</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Steepvalley.Windows.Forms.ListView\Steepvalley.Windows.Forms.ListView.vbproj">
+      <Project>{D1E323BA-5590-4264-B788-2AED3A3D1C61}</Project>
+      <Name>Steepvalley.Windows.Forms.ListView</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

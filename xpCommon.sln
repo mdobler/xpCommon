@@ -1,0 +1,98 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "keys", "keys", "{14C21581-CA4C-4870-AA03-0C1466A40CBE}"
+	ProjectSection(SolutionItems) = preProject
+		xpcommon.snk = xpcommon.snk
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Steepvalley.Windows.Forms", "Steepvalley.Windows.Forms.XPCommonControls\Steepvalley.Windows.Forms.vbproj", "{1BDEA3EC-47B4-4046-9293-EE9BF1F46D70}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Steepvalley.Windows.Forms.Testbed", "Steepvalley.Windows.Forms.Testbed\Steepvalley.Windows.Forms.Testbed.vbproj", "{F415B337-AB4E-4039-AE17-BFED01534D38}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Steepvalley.Windows.Forms.Common", "Steepvalley.Windows.Forms.Common\Steepvalley.Windows.Forms.Common.vbproj", "{2A29FB9C-C595-4C5B-A9F9-0B62DC9137D7}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Steepvalley.Windows.Forms.ThemedControls", "Steepvalley.Windows.Forms.ThemedControls\Steepvalley.Windows.Forms.ThemedControls.vbproj", "{28BABA12-ED10-463D-B865-A8CE59011F93}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Steepvalley.Windows.Forms.Login", "Steepvalley.Windows.Forms.Login\Steepvalley.Windows.Forms.Login.vbproj", "{1B731EBB-BEA2-4B9F-91DD-F6334706543F}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Steepvalley.Windows.Forms.APIEnhanced", "Steepvalley.Windows.Forms.APIEnhanced\Steepvalley.Windows.Forms.APIEnhanced.vbproj", "{79C3A682-2988-403B-9C22-4D204C8C6767}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Steepvalley.Windows.Forms.ListControls", "Steepvalley.Windows.Forms.ListControls\Steepvalley.Windows.Forms.ListControls.vbproj", "{5C399C93-6038-4674-A601-333F75027E51}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Steepvalley.Windows.Forms.Providers", "Steepvalley.Windows.Forms.Providers\Steepvalley.Windows.Forms.Providers.vbproj", "{18147BD6-DB2B-487B-90BD-AF941A0CF8E9}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Steepvalley.Windows.Forms.DataExtenders", "Steepvalley.Windows.Forms.DataExtenders\Steepvalley.Windows.Forms.DataExtenders.vbproj", "{50BCED70-1D3B-4120-B1A2-E85DA06B3270}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Steepvalley.Windows.Forms.ListView", "Steepvalley.Windows.Forms.ListView\Steepvalley.Windows.Forms.ListView.vbproj", "{D1E323BA-5590-4264-B788-2AED3A3D1C61}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Steepvalley.Windows.Forms.Styles", "Steepvalley.Windows.Forms.StyleSheets\Steepvalley.Windows.Forms.Styles.vbproj", "{8CB58F6A-5D74-4F20-9034-3C82ED2E3005}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Steepvalley.Serialization", "Steepvalley.Serialization\Steepvalley.Serialization.vbproj", "{1DECD0A0-4B04-4E64-AB10-4673E152DDD1}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Steepvalley.Windows.Forms.Containers", "Steepvalley.Windows.Forms.Containers\Steepvalley.Windows.Forms.Containers.vbproj", "{3B36C0EA-41D7-475F-A9B1-D00498666592}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1BDEA3EC-47B4-4046-9293-EE9BF1F46D70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BDEA3EC-47B4-4046-9293-EE9BF1F46D70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BDEA3EC-47B4-4046-9293-EE9BF1F46D70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BDEA3EC-47B4-4046-9293-EE9BF1F46D70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F415B337-AB4E-4039-AE17-BFED01534D38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F415B337-AB4E-4039-AE17-BFED01534D38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F415B337-AB4E-4039-AE17-BFED01534D38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F415B337-AB4E-4039-AE17-BFED01534D38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A29FB9C-C595-4C5B-A9F9-0B62DC9137D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A29FB9C-C595-4C5B-A9F9-0B62DC9137D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A29FB9C-C595-4C5B-A9F9-0B62DC9137D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A29FB9C-C595-4C5B-A9F9-0B62DC9137D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28BABA12-ED10-463D-B865-A8CE59011F93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28BABA12-ED10-463D-B865-A8CE59011F93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28BABA12-ED10-463D-B865-A8CE59011F93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28BABA12-ED10-463D-B865-A8CE59011F93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B731EBB-BEA2-4B9F-91DD-F6334706543F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B731EBB-BEA2-4B9F-91DD-F6334706543F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B731EBB-BEA2-4B9F-91DD-F6334706543F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B731EBB-BEA2-4B9F-91DD-F6334706543F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79C3A682-2988-403B-9C22-4D204C8C6767}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79C3A682-2988-403B-9C22-4D204C8C6767}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79C3A682-2988-403B-9C22-4D204C8C6767}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79C3A682-2988-403B-9C22-4D204C8C6767}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C399C93-6038-4674-A601-333F75027E51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C399C93-6038-4674-A601-333F75027E51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C399C93-6038-4674-A601-333F75027E51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C399C93-6038-4674-A601-333F75027E51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18147BD6-DB2B-487B-90BD-AF941A0CF8E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18147BD6-DB2B-487B-90BD-AF941A0CF8E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18147BD6-DB2B-487B-90BD-AF941A0CF8E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18147BD6-DB2B-487B-90BD-AF941A0CF8E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50BCED70-1D3B-4120-B1A2-E85DA06B3270}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50BCED70-1D3B-4120-B1A2-E85DA06B3270}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50BCED70-1D3B-4120-B1A2-E85DA06B3270}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50BCED70-1D3B-4120-B1A2-E85DA06B3270}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1E323BA-5590-4264-B788-2AED3A3D1C61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1E323BA-5590-4264-B788-2AED3A3D1C61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1E323BA-5590-4264-B788-2AED3A3D1C61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1E323BA-5590-4264-B788-2AED3A3D1C61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CB58F6A-5D74-4F20-9034-3C82ED2E3005}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CB58F6A-5D74-4F20-9034-3C82ED2E3005}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CB58F6A-5D74-4F20-9034-3C82ED2E3005}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CB58F6A-5D74-4F20-9034-3C82ED2E3005}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DECD0A0-4B04-4E64-AB10-4673E152DDD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DECD0A0-4B04-4E64-AB10-4673E152DDD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DECD0A0-4B04-4E64-AB10-4673E152DDD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DECD0A0-4B04-4E64-AB10-4673E152DDD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B36C0EA-41D7-475F-A9B1-D00498666592}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B36C0EA-41D7-475F-A9B1-D00498666592}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B36C0EA-41D7-475F-A9B1-D00498666592}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B36C0EA-41D7-475F-A9B1-D00498666592}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
